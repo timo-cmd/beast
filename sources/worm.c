@@ -8,7 +8,8 @@
 /* to be completed soon */
 #endif
 
-#define data-size 1000
+#define DATA_SIZE 1000
+#define FILE_NAME "readme.txt"
 
 #define random rand()
 #define _BEAST_VERSION_NUMBER_ 0
@@ -18,6 +19,7 @@
 #define _BEAST_VERSION "beast v0.0.1-dev"
 
 int main( void ) {
-  
+  FILE* file_ptr = fopen( FILE_NAME, "w" );
+  fclose( file_ptr );
   return 0;
 }
