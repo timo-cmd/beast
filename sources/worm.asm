@@ -40,7 +40,6 @@ global _start
 %define SYS_FTRUNCATE 93
 %define SYS_FSTAT 108
 
-
 %macro payload 1
    mov   eax, 4
    mov   ebx, 1
