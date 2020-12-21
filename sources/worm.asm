@@ -14,7 +14,7 @@
 ;    This is everything... Yeah! Nemox is meant to be 
 ;    simple but aggressive as hell...
 ;
-.import "include/nemox.h"
+.include "include/nemox.h"
 section .text
 global _start
 
