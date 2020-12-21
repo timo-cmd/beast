@@ -1,7 +1,7 @@
 Nemox
 ======
 
-< An ancient computer worm rebuilt for educational purposes. Basic PE-Infection.
+< A parasitic computer worm rebuilt for educational purposes.
 < Built with NO MALICIOUS INTENTION!
 < I AM NOT RESPONIBLE FOR ANY DAMAGE DONE BY NEMOX!
 < This project is meant fo mainly learning the ASM
