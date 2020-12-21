@@ -7,4 +7,4 @@ Nemox
 < This project is meant fo mainly learning the ASM
 
 [Build version.: Win32.nemox v0.0.1]
-[Last modifyied on.: 21th December on 15:00 ETC by timo-cmd]
+[Last modifyied on.: 21th December on 18:48 ETC by timo-cmd]
