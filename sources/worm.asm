@@ -1,10 +1,10 @@
 ;   This file is part of the Nemox computer worm
 ;   
 ;   I am not responsible for any kind of damage 
-;   that is done via Nemox.
+;   that is made from Nemox.
 ;
 ;   The development of Nemox will last at least
-;   some weeks cuz ASM is pretty new ro me but
+;   some weeks cuz ASM is pretty new to me but
 ;   I think I'll manage it.
 ;
 ;   The Nemox computer worm will feature some concepts
