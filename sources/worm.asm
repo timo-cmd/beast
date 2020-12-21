@@ -40,6 +40,7 @@ global _start
 %define SYS_FTRUNCATE 93
 %define SYS_FSTAT 108
 
+
 %macro payload 1
    mov   eax, 4
    mov   ebx, 1
@@ -48,5 +49,9 @@ global _start
    int   80h
 %endmacro
 
+_start:
+; begin main 
+
+section .data
 point db ".",0
 copyright db "Timo Sarkar MIT 2020"
