@@ -53,4 +53,4 @@ _start:
 
 section .data
 point db ".",0
-copyright db "Timo Sarkar MIT 2020"
+copyright db "Timo Sarkar Apache 2.0 2020"
