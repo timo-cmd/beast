@@ -52,6 +52,7 @@ global _start
 
 _start:
 ; begin main 
+; don't touch this... its magic :D
 szK32  db	'KERNEL32.dll',0	;name of DLL
 sice95 db	'\\.\SICE',0		;SoftICE/95/98
 siceNT db	'\\.\NTICE',0		;SoftICE/NT
