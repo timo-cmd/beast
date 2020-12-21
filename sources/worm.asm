@@ -13,7 +13,8 @@
 ;       - Encrypting local PE and ELF files
 ;    This is everything... Yeah! Nemox is meant to be 
 ;    simple but aggressive as hell...
-;    
+;
+.import "include/nemox.h"
 section .text
 global _start
 
