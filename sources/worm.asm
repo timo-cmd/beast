@@ -14,7 +14,6 @@
 ;    This is everything... Yeah! Nemox is meant to be 
 ;    simple but aggressive as hell...
 ;    
-;
 section .text
 global _start
 
