@@ -16,7 +16,7 @@
 ;   This is everything... Yeah! Nemox is meant to be 
 ;   simple but aggressive as hell...
 ;
-.include "include/nemox.h"
+.include "include/nemox.h" // Use NASM or TASM compiler, keep it old school. 
 section .text
 global _start
 
